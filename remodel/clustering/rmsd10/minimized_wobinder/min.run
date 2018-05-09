@@ -1,0 +1,1 @@
+/work/upcorreia/bin/rosetta_bin/stable/RosettaWeekly/rosetta_scripts.linuxiccrelease -s ../c.*.pdb -parser:protocol ../score_by_parts.xml

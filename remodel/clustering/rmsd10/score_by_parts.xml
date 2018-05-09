@@ -1,0 +1,33 @@
+<ROSETTASCRIPTS>
+
+  <SCOREFXNS>
+    <ScoreFunction name="fullatom" weights="ref2015" />
+  </SCOREFXNS>
+
+  <RESIDUE_SELECTORS>
+    <Chain name="designChain"  chains="A" />
+    <Chain name="crisprChain" chains="B" />
+    <Chain name="dnaChain" chains="C" />
+    <And name="complex" selectors="dnaChain,crisprChain,designChain" />
+  </RESIDUE_SELECTORS>
+  <FILTERS>
+    <ScorePoseSegmentFromResidueSelectorFilter name="design_score" confidence="0" residue_selector="designChain" />
+  </FILTERS>
+
+  <MOVERS>
+    <MinMover name="minimize" scorefxn="fullatom" type="dfpmin_armijo_nonmonotone" >
+    <MoveMap>
+      <Chain number="1" chi="true" bb="true"/>
+    </MoveMap>
+    </MinMover>
+  </MOVERS>
+
+  <APPLY_TO_POSE>
+  </APPLY_TO_POSE>
+
+  <PROTOCOLS>
+    <Add mover="minimize" />
+    <Add filter="design_score" />
+  </PROTOCOLS>
+  <OUTPUT />
+</ROSETTASCRIPTS>
