@@ -1,5 +1,7 @@
 # anti-CRISPR-designs
-Repo for publications of Engineered anti-CRISPR proteins for optogenetic control of CRISPR/Cas9
+Repo for publications of 
+
+Felix Bubeck, Mareike D. Hoffmann, Zander Harteveld, Sabine Aschenbrenner, Andreas Bietz, Max C. Waldhauer, Kathleen Börner, Julia Fakhiri, Carolin Schmelas, Laura Dietz, Dirk Grimm, Bruno E. Correia, Roland Eils, Dominik Niopek. 2018. *Engineered anti-CRISPR proteins for optogenetic control of CRISPR/Cas9*.
 
 # Engineered anti-CRISPR proteins for optogenetic control of CRISPR/Cas9
 Repository for the computational part of the paper.
