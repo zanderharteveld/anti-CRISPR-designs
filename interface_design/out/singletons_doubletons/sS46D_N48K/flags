@@ -1,0 +1,7 @@
+-s ../../../../in/5vw1.pdb
+-parser:protocol ../../interface_manual.xml
+-nstruct 1
+-ex1
+-ex2
+-extrachi_cutoff 5
+-ignore_unrecognized_res

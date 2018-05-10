@@ -1,0 +1,63 @@
+<ROSETTASCRIPTS>
+       <SCOREFXNS>
+                <ScoreFunction name="sfxn_stand" weights="ref2015" >
+                </ScoreFunction>
+        </SCOREFXNS>
+       <RESIDUE_SELECTORS>
+		# Select chains	
+		<Chain name="chB" chains="B" />
+		<Chain name="chA" chains="A" />
+		# Select interface
+		<InterfaceByVector name="interface_select" grp1_selector="chB" grp2_selector="chA"/>
+		<And name="inhibitor_interface" selectors="chB,interface_select" />
+		<And name="crispr_cas9_interface" selectors="chA,interface_select" />
+		# Select sourrounding	
+		<Not name="not_inhibitor_interface" selector="inhibitor_interface" />
+		<Not name="not_crispr_cas9_interface" selector="crispr_cas9_interface" />
+		<And name="not_interface" selectors="not_inhibitor_interface,not_crispr_cas9_interface" />
+        </RESIDUE_SELECTORS>
+       <TASKOPERATIONS>
+       		<InitializeFromCommandline name="init"/> 
+		<ReadResfile name="rf" filename="resfile" />
+		<OperateOnResidueSubset name="fix" selector="not_interface" >
+                        <PreventRepackingRLT/> # turn off design and repacking
+                </OperateOnResidueSubset>
+		<OperateOnResidueSubset name="repack_selection" selector="crispr_cas9_interface" >
+                        <RestrictToRepackingRLT/> # turn off design
+                </OperateOnResidueSubset>
+		<OperateOnResidueSubset name="design_selection" selector="inhibitor_interface" >
+   			<RestrictAbsentCanonicalAASRLT aas="ARNDEQGHILKFPSTWYV" /> # disallow Cys and Met
+		</OperateOnResidueSubset>
+	</TASKOPERATIONS>
+       <FILTERS>
+               <TotalSasa name="sasa" threshold="800" confidence="0.0"/>
+       	       <Rmsd name="rmsd" threshold="3" confidence="0.0"/>
+	</FILTERS>
+       <MOVERS>
+		<LabelPoseFromResidueSelectorMover name="label_crispr_cas9_interface" residue_selector="crispr_cas9_interface" property="CRISPR_CAS9_INTERFACE" />		
+		<LabelPoseFromResidueSelectorMover name="label_not_interface" residue_selector="not_interface" property="FIX" />
+		<ParsedProtocol name="label" >
+        		<Add mover_name="label_inhibitor_interface" />
+                	<Add mover_name="label_crispr_cas9_interface" />
+			<Add mover_name="label_not_interface" />
+		</ParsedProtocol>
+		<DisplayPoseLabelsMover name="show" /-->
+
+		<PackRotamersMover name="design1" scorefxn="sfxn_stand" task_operations="init,rf"/>		
+		<MinMover name="minimize1" scorefxn="sfxn_stand" chi="true" bb="false" cartesian="false" type="dfpmin_armijo_nonmonotone" tolerance="0.01" max_iter="200" />
+		<PackRotamersMover name="design2" scorefxn="sfxn_stand" task_operations="init,rf"/>
+                <MinMover name="minimize2" scorefxn="sfxn_stand" chi="true" bb="false" cartesian="false" type="dfpmin_armijo_nonmonotone" tolerance="0.01" max_iter="200" />
+		<InterfaceAnalyzerMover name="interface_analysis" scorefxn="sfxn_stand" />
+		<ddG name="ddg_mover" jump="1" per_residue_ddg="1" scorefxn="sfxn_stand" />
+	</MOVERS>
+       <PROTOCOLS>
+		<Add mover_name="design1" />
+		<Add mover_name="minimize1" />
+		<Add mover_name="design2" />
+		<Add mover_name="minimize2" />
+		<Add mover_name="interface_analysis" />
+		<Add mover_name="ddg_mover" />
+		<Add filter_name="sasa"/>
+		<Add filter_name="rmsd"/>
+       </PROTOCOLS>
+</ROSETTASCRIPTS>

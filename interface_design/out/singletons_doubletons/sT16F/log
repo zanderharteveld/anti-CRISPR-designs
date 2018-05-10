@@ -1,0 +1,562 @@
+core.init: Rosetta version unknown:2d4add5760f905a54da645321a011e7d051c9440 2017-10-11 23:40:44 -0400 from https://github.com/RosettaCommons/main.git
+core.init: command: /home/hartevel/bin/Rosetta_devel/main/source/bin/rosetta_scripts.linuxiccrelease @flags -out:file:silent sT16F_silent -overwrite
+core.init: 'RNG device' seed mode, using '/dev/urandom', seed=1113536758 seed_offset=0 real_seed=1113536758
+core.init.random: RandomGenerator:init: Normal mode, seed=1113536758 RG_type=mt19937
+core.init: Resolved executable path: /home/hartevel/bin/Rosetta_devel/main/source/build/src/release/linux/3.10/64/x86/icc/17.0/default/rosetta_scripts.default.linuxiccrelease
+core.init: Looking for database based on location of executable: /home/hartevel/bin/Rosetta_devel/main/database/
+protocols.jd2.PDBJobInputter: Instantiate PDBJobInputter
+protocols.jd2.PDBJobInputter: PDBJobInputter::fill_jobs
+protocols.jd2.PDBJobInputter: pushed ../../../../in/5vw1.pdb nstruct index 1
+protocols.evaluation.ChiWellRmsdEvaluatorCreator: Evaluation Creator active ... 
+protocols.jd2.PDBJobInputter: PDBJobInputter::pose_from_job
+protocols.jd2.PDBJobInputter: filling pose from PDB ../../../../in/5vw1.pdb
+core.chemical.GlobalResidueTypeSet: Finished initializing fa_standard residue type set.  Created 557 residue types
+core.chemical.GlobalResidueTypeSet: Total time to initialize 0.6 seconds.
+core.import_pose.import_pose: File '../../../../in/5vw1.pdb' automatically determined to be of type PDB
+core.io.pose_from_sfr.PoseFromSFRBuilder: Adding undetected upper terminus type to residue 1362, 1368 A
+core.io.pose_from_sfr.PoseFromSFRBuilder: Adding undetected upper terminus type to residue 1579,   83 C
+core.io.pose_from_sfr.PoseFromSFRBuilder: Adding undetected upper terminus type to residue 1697,   85 B
+core.io.pose_from_sfr.chirality_resolution: Flipping atom xyz for  OP1 and  OP2 for residue   U
+core.io.pose_from_sfr.chirality_resolution: Flipping atom xyz for  H5' and H5'' for residue   U
+core.io.pose_from_sfr.chirality_resolution: Number of flip-atom fixups exceeds output limit. Rerun with -show_all_fixes to show everything.
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLU 198
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLU 198
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLU 198
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE2 on residue GLU 198
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLU 199
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLU 199
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLU 199
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE2 on residue GLU 199
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLU 312
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLU 312
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLU 312
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE2 on residue GLU 312
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG1 on residue VAL 531
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG2 on residue VAL 531
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLU 533
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLU 533
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLU 533
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE2 on residue GLU 533
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue ARG 536
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue ARG 536
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NE  on residue ARG 536
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CZ  on residue ARG 536
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NH1 on residue ARG 536
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NH2 on residue ARG 536
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 537
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 537
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 537
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 537
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 547
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 547
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 547
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 547
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 559
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 559
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 559
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 559
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 563
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 563
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 563
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 563
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 566
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 566
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 566
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 566
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLU 567
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLU 567
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLU 567
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE2 on residue GLU 567
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 571
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 571
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 571
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 571
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 572
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 572
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 572
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 572
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue ASP 577
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OD1 on residue ASP 577
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OD2 on residue ASP 577
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLU 585
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLU 585
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLU 585
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE2 on residue GLU 585
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue ASP 586
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OD1 on residue ASP 586
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OD2 on residue ASP 586
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue ARG 587
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue ARG 587
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NE  on residue ARG 587
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CZ  on residue ARG 587
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NH1 on residue ARG 587
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NH2 on residue ARG 587
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 603
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 603
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 603
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 603
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLU 612
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLU 612
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLU 612
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE2 on residue GLU 612
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue ASP 646
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OD1 on residue ASP 646
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OD2 on residue ASP 646
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 647
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 647
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 647
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 647
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 650
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 650
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 650
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 650
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 674
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 674
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 674
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 674
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLN 675
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLN 675
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLN 675
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NE2 on residue GLN 675
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue PHE 689
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD1 on residue PHE 689
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD2 on residue PHE 689
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE1 on residue PHE 689
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE2 on residue PHE 689
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CZ  on residue PHE 689
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue HIS 699
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  ND1 on residue HIS 699
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD2 on residue HIS 699
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE1 on residue HIS 699
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NE2 on residue HIS 699
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 706
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 706
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 706
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 706
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 711
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 711
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 711
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 711
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLU 720
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLU 720
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLU 720
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE2 on residue GLU 720
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 770
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 770
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 770
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 770
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLN 771
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLN 771
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLN 771
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NE2 on residue GLN 771
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 772
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 772
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 772
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 772
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 945
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 945
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 945
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 945
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 1011
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 1011
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 1011
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 1011
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 1017
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 1017
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 1017
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 1017
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 1021
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 1021
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 1021
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 1021
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLU 1023
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLU 1023
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLU 1023
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE2 on residue GLU 1023
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLN 1024
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLN 1024
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLN 1024
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NE2 on residue GLN 1024
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLU 1062
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLU 1062
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLU 1062
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE2 on residue GLU 1062
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 1123
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 1123
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 1123
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 1123
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 1142
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 1142
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 1142
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 1142
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 1145
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 1145
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 1145
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 1145
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 1147
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 1147
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 1147
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 1147
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 1149
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 1149
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 1149
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 1149
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 1150
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 1150
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 1150
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 1150
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 1152
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 1152
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 1152
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 1152
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 1182
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 1182
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 1182
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 1182
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLU 1237
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLU 1237
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLU 1237
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE2 on residue GLU 1237
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 1238
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 1238
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 1238
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 1238
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 1240
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 1240
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 1240
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 1240
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLU 1247
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLU 1247
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLU 1247
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE2 on residue GLU 1247
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLN 1248
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLN 1248
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLN 1248
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NE2 on residue GLN 1248
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLU 1254
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLU 1254
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLU 1254
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE2 on residue GLU 1254
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LYS 1257
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue LYS 1257
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue LYS 1257
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NZ  on residue LYS 1257
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue ARG 1297
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue ARG 1297
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NE  on residue ARG 1297
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CZ  on residue ARG 1297
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NH1 on residue ARG 1297
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NH2 on residue ARG 1297
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OXT on residue ASP:CtermProteinFull 1362
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OG  on residue SER:NtermProteinFull 1437
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OXT on residue GLU:CtermProteinFull 1522
+core.pack.pack_missing_sidechains: packing residue number 198 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 199 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 312 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 531 because of missing atom number 6 atom name  CG1
+core.pack.pack_missing_sidechains: packing residue number 533 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 536 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 537 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 547 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 559 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 563 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 566 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 567 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 571 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 572 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 577 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 585 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 586 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 587 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 603 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 612 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 646 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 647 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 650 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 674 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 675 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 689 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 699 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 706 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 711 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 720 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 770 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 771 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 772 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 945 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1011 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1017 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1021 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1023 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1024 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1062 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1123 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1142 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1145 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1147 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1149 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1150 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1152 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1182 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1237 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1238 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1240 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1247 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1248 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1254 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1257 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1297 because of missing atom number 6 atom name  CG 
+core.pack.pack_missing_sidechains: packing residue number 1437 because of missing atom number 6 atom name  OG 
+core.pack.task: Packer task: initialize from command line() 
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: ref2015
+core.scoring.etable: Starting energy table calculation
+core.scoring.etable: smooth_etable: changing atr/rep split to bottom of energy well
+core.scoring.etable: smooth_etable: spline smoothing lj etables (maxdis = 6)
+core.scoring.etable: smooth_etable: spline smoothing solvation etables (max_dis = 6)
+core.scoring.etable: Finished calculating energy tables.
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/HBPoly1D.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/HBFadeIntervals.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/HBEval.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/DonStrength.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/AccStrength.csv
+basic.io.database: Database file opened: scoring/score_functions/rama/fd/all.ramaProb
+basic.io.database: Database file opened: scoring/score_functions/rama/fd/prepro.ramaProb
+basic.io.database: Database file opened: scoring/score_functions/omega/omega_ppdep.all.txt
+basic.io.database: Database file opened: scoring/score_functions/omega/omega_ppdep.gly.txt
+basic.io.database: Database file opened: scoring/score_functions/omega/omega_ppdep.pro.txt
+basic.io.database: Database file opened: scoring/score_functions/omega/omega_ppdep.valile.txt
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_n
+core.scoring.P_AA: shapovalov_lib::shap_p_aa_pp_smooth_level of 1( aka low_smooth ) got activated.
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/shapovalov/10deg/kappa131/a20.prop
+basic.io.database: Database file opened: scoring/score_functions/elec_cp_reps.dat
+core.scoring.elec.util: Read 40 countpair representative atoms
+core.pack.dunbrack.RotamerLibrary: shapovalov_lib_fixes_enable option is true.
+core.pack.dunbrack.RotamerLibrary: shapovalov_lib::shap_dun10_smooth_level of 1( aka lowest_smooth ) got activated.
+core.pack.dunbrack.RotamerLibrary: Binary rotamer library selected: /home/hartevel/bin/Rosetta_devel/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin
+core.pack.dunbrack.RotamerLibrary: Using Dunbrack library binary file '/home/hartevel/bin/Rosetta_devel/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin'.
+core.pack.dunbrack.RotamerLibrary: Dunbrack 2010 library took 0.18 seconds to load from binary
+core.pack.pack_rotamers: built 7738 rotamers at 57 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 7228660 bytes
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=../../interface_manual.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Generating XML Schema for rosetta_scripts...
+protocols.rosetta_scripts.RosettaScriptsParser: ...done
+protocols.rosetta_scripts.RosettaScriptsParser: Initializing schema validator...
+protocols.rosetta_scripts.RosettaScriptsParser: ...done
+protocols.rosetta_scripts.RosettaScriptsParser: Validating input script...
+protocols.rosetta_scripts.RosettaScriptsParser: ...done
+protocols.rosetta_scripts.RosettaScriptsParser: Parsed script:
+<ROSETTASCRIPTS>
+	<SCOREFXNS>
+		<ScoreFunction name="sfxn_stand" weights="ref2015"/>
+	</SCOREFXNS>
+	<RESIDUE_SELECTORS>
+		<Chain chains="B" name="chB"/>
+		<Chain chains="A" name="chA"/>
+		<InterfaceByVector grp1_selector="chB" grp2_selector="chA" name="interface_select"/>
+		<And name="inhibitor_interface" selectors="chB,interface_select"/>
+		<And name="crispr_cas9_interface" selectors="chA,interface_select"/>
+		<Not name="not_inhibitor_interface" selector="inhibitor_interface"/>
+		<Not name="not_crispr_cas9_interface" selector="crispr_cas9_interface"/>
+		<And name="not_interface" selectors="not_inhibitor_interface,not_crispr_cas9_interface"/>
+	</RESIDUE_SELECTORS>
+	<TASKOPERATIONS>
+		<InitializeFromCommandline name="init"/>
+		<ReadResfile filename="resfile" name="rf"/>
+		<OperateOnResidueSubset name="fix" selector="not_interface">
+			<PreventRepackingRLT/>
+		</OperateOnResidueSubset>
+		<OperateOnResidueSubset name="repack_selection" selector="crispr_cas9_interface">
+			<RestrictToRepackingRLT/>
+		</OperateOnResidueSubset>
+		<OperateOnResidueSubset name="design_selection" selector="inhibitor_interface">
+			<RestrictAbsentCanonicalAASRLT aas="ARNDEQGHILKFPSTWYV"/>
+		</OperateOnResidueSubset>
+	</TASKOPERATIONS>
+	<FILTERS>
+		<TotalSasa confidence="0.0" name="sasa" threshold="800"/>
+		<Rmsd confidence="0.0" name="rmsd" threshold="3"/>
+	</FILTERS>
+	<MOVERS>
+		<PackRotamersMover name="design1" scorefxn="sfxn_stand" task_operations="init,rf"/>
+		<MinMover bb="false" cartesian="false" chi="true" max_iter="200" name="minimize1" scorefxn="sfxn_stand" tolerance="0.01" type="dfpmin_armijo_nonmonotone"/>
+		<PackRotamersMover name="design2" scorefxn="sfxn_stand" task_operations="init,rf"/>
+		<MinMover bb="false" cartesian="false" chi="true" max_iter="200" name="minimize2" scorefxn="sfxn_stand" tolerance="0.01" type="dfpmin_armijo_nonmonotone"/>
+		<InterfaceAnalyzerMover name="interface_analysis" scorefxn="sfxn_stand"/>
+		<ddG jump="1" name="ddg_mover" per_residue_ddg="1" scorefxn="sfxn_stand"/>
+	</MOVERS>
+	<PROTOCOLS>
+		<Add mover_name="design1"/>
+		<Add mover_name="minimize1"/>
+		<Add mover_name="design2"/>
+		<Add mover_name="minimize2"/>
+		<Add mover_name="interface_analysis"/>
+		<Add mover_name="ddg_mover"/>
+		<Add filter_name="sasa"/>
+		<Add filter_name="rmsd"/>
+	</PROTOCOLS>
+</ROSETTASCRIPTS>
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: ref2015
+core.scoring.etable: Starting energy table calculation
+core.scoring.etable: smooth_etable: changing atr/rep split to bottom of energy well
+core.scoring.etable: smooth_etable: spline smoothing lj etables (maxdis = 6)
+core.scoring.etable: smooth_etable: spline smoothing solvation etables (max_dis = 6)
+core.scoring.etable: Finished calculating energy tables.
+basic.io.database: Database file opened: scoring/score_functions/PairEPotential/pdb_pair_stats_fine
+basic.io.database: Database file opened: scoring/score_functions/InterchainPotential/interchain_env_log.txt
+basic.io.database: Database file opened: scoring/score_functions/InterchainPotential/interchain_pair_log.txt
+basic.io.database: Database file opened: scoring/score_functions/EnvPairPotential/env_log.txt
+basic.io.database: Database file opened: scoring/score_functions/EnvPairPotential/cbeta_den.txt
+basic.io.database: Database file opened: scoring/score_functions/EnvPairPotential/pair_log.txt
+basic.io.database: Database file opened: scoring/score_functions/EnvPairPotential/cenpack_log.txt
+core.scoring.ramachandran: shapovalov_lib::shap_rama_smooth_level of 4( aka highest_smooth ) got activated.
+basic.io.database: Database file opened: scoring/score_functions/rama/shapovalov/kappa25/all.ramaProb
+protocols.jd2.parser.ScoreFunctionLoader: defined score function "sfxn_stand" with weights "ref2015"
+protocols.jd2.parser.TaskOperationLoader: Defined TaskOperation named "init" of type InitializeFromCommandline
+protocols.jd2.parser.TaskOperationLoader: Defined TaskOperation named "rf" of type ReadResfile
+protocols.jd2.parser.TaskOperationLoader: Defined TaskOperation named "fix" of type OperateOnResidueSubset
+protocols.jd2.parser.TaskOperationLoader: Defined TaskOperation named "repack_selection" of type OperateOnResidueSubset
+protocols.jd2.parser.TaskOperationLoader: Defined TaskOperation named "design_selection" of type OperateOnResidueSubset
+protocols.rosetta_scripts.RosettaScriptsParser: Defined filter named "sasa" of type TotalSasa
+protocols.protein_interface_design.filters.RmsdFilter: RMSD filter with superimpose=1 and threshold=3 over residues ALL
+protocols.rosetta_scripts.RosettaScriptsParser: Defined filter named "rmsd" of type Rmsd
+protocols.RosettaScripts.util: Object design1 reading the following task_operations: Adding the following task operations
+init rf 
+protocols.rosetta_scripts.RosettaScriptsParser: Defined mover named "design1" of type PackRotamersMover
+protocols.simple_moves.MinMover: Options chi, bb: 1, 0 omega: 1
+protocols.rosetta_scripts.RosettaScriptsParser: Defined mover named "minimize1" of type MinMover
+protocols.RosettaScripts.util: Object design2 reading the following task_operations: Adding the following task operations
+init rf 
+protocols.rosetta_scripts.RosettaScriptsParser: Defined mover named "design2" of type PackRotamersMover
+protocols.simple_moves.MinMover: Options chi, bb: 1, 0 omega: 1
+protocols.rosetta_scripts.RosettaScriptsParser: Defined mover named "minimize2" of type MinMover
+protocols.rosetta_scripts.RosettaScriptsParser: Defined mover named "interface_analysis" of type InterfaceAnalyzerMover
+protocols.rosetta_scripts.RosettaScriptsParser: Defined mover named "ddg_mover" of type ddG
+protocols.rosetta_scripts.ParsedProtocol: ParsedProtocol mover with the following movers and filters
+protocols.rosetta_scripts.ParsedProtocol: added mover "design1" with filter "true_filter"
+protocols.rosetta_scripts.ParsedProtocol: added mover "minimize1" with filter "true_filter"
+protocols.rosetta_scripts.ParsedProtocol: added mover "design2" with filter "true_filter"
+protocols.rosetta_scripts.ParsedProtocol: added mover "minimize2" with filter "true_filter"
+protocols.rosetta_scripts.ParsedProtocol: added mover "interface_analysis" with filter "true_filter"
+protocols.rosetta_scripts.ParsedProtocol: added mover "ddg_mover" with filter "true_filter"
+protocols.rosetta_scripts.ParsedProtocol: added mover "NULL_MOVER" with filter "sasa"
+protocols.rosetta_scripts.ParsedProtocol: added mover "NULL_MOVER" with filter "rmsd"
+protocols.jd2.PDBJobInputter: PDBJobInputter::pose_from_job
+protocols.jd2.PDBJobInputter: filling pose from saved copy ../../../../in/5vw1.pdb
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER PackRotamersMover - design1=======================
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 36 rotamers at 1 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 2624 bytes
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER MinMover - minimize1=======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER PackRotamersMover - design2=======================
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 36 rotamers at 1 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 924 bytes
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER MinMover - minimize2=======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER InterfaceAnalyzerMover - interface_analysis=======================
+protocols.analysis.InterfaceAnalyzerMover: [ WARNING ] more than 2 chains present w/o using the explicit constructor!  Values might be over the wrong jump.
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBPoly1D.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBFadeIntervals.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBEval.csv
+protocols.analysis.InterfaceAnalyzerMover: Making an interface set with default calculator.
+protocols.moves.RigidBodyMover: Translate: Jump (before): RT -0.344483 0.630655 0.695418 -0.6985 0.322744 -0.638697 -0.62724 -0.705769 0.329333 19.1616 3.80003 41.8018  
+protocols.moves.RigidBodyMover: Translate: Jump (after):  RT -0.344483 0.630655 0.695418 -0.6985 0.322744 -0.638697 -0.62724 -0.705769 0.329333 -461.584 -700.11 564.674  
+protocols.analysis.InterfaceAnalyzerMover: Calculating dSASA
+protocols.analysis.InterfaceAnalyzerMover: Calculating per-res data
+protocols.analysis.InterfaceAnalyzerMover: included_nres: 1522
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: ref2015
+protocols.analysis.InterfaceAnalyzerMover: Computing delta unsat polar residues...
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER ddG - ddg_mover=======================
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 6811 rotamers at 141 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 9156532 bytes
+protocols.moves.RigidBodyMover: Translate: Jump (before): RT -0.344483 0.630655 0.695418 -0.6985 0.322744 -0.638697 -0.62724 -0.705769 0.329333 19.1616 3.80003 41.8018  
+protocols.moves.RigidBodyMover: Translate: Jump (after):  RT -0.344483 0.630655 0.695418 -0.6985 0.322744 -0.638697 -0.62724 -0.705769 0.329333 -461.686 -700.133 564.549  
+protocols.protein_interface_design.movers.ddG: -----------------------------------------
+ Scores                       Wghtd.Score
+-----------------------------------------
+ fa_atr                    -412.416
+ fa_rep                      43.016
+ fa_sol                     498.020
+ fa_intra_rep                 0.000
+ fa_intra_sol_xover4          0.000
+ lk_ball_wtd                  4.406
+ fa_elec                   -214.596
+ hbond_sr_bb                  0.000
+ hbond_lr_bb                 -6.160
+ hbond_bb_sc                -25.523
+ hbond_sc                   -12.540
+ omega                        0.000
+ fa_dun                       0.000
+ p_aa_pp                      0.000
+ yhh_planarity                0.000
+ ref                          0.000
+ rama_prepro                  0.000
+-----------------------------------------
+Sum ddg: -125.793
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER NullMover - NULL_MOVER=======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER sasa=======================
+protocols.filters.Filter: stochastic filter returning true
+protocols.filters.Filter: Compound logical statement is 1.
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER sasa=======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER NullMover - NULL_MOVER=======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER rmsd=======================
+protocols.filters.Filter: stochastic filter returning true
+protocols.filters.Filter: Compound logical statement is 1.
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER rmsd=======================
+protocols.rosetta_scripts.ParsedProtocol: setting status to success
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============End report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============End report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============End report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============End report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============End report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============End report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for sasa==================
+protocols.filters.Filter: stochastic filter returning true
+protocols.rosetta_scripts.ParsedProtocol.REPORT: Sasa= 75984.7
+Compound filter returns: 1
+============End report for sasa==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for rmsd==================
+protocols.filters.Filter: stochastic filter returning true
+protocols.rosetta_scripts.ParsedProtocol.REPORT: RMSD: 9.82226e-07
+Compound filter returns: 1
+============End report for rmsd==================
+core.conformation.util: Non-ideal residue detected:  Residue #1 atom #5(  CB  ) :  Ideal theta=1.21934, Inspected theta=1.21271 (in Radians)
+core.io.silent: detected attempt to write non-ideal pose to silent-file...Automatically switching to binary silent-struct type
+protocols.jd2.JobDistributor: 5vw1_0001 reported success in 72 seconds
+protocols.jd2.JobDistributor: no more batches to process... 
+protocols.jd2.JobDistributor: 1 jobs considered, 1 jobs attempted in 72 seconds
+core.init: Rosetta version: 2017.51.post.dev+474.secstrucstrucfrags.b41dc4c8609 b41dc4c86094454366dabc3382052052e819f92c https://zanderharteveld@github.com/RosettaCommons/main.git 2018-03-20T13:19:02
+core.init: command: /home/hartevel/bin/Rosetta/main/source/bin/extract_pdbs.linuxiccrelease -in:file:silent sT16F_silent
+core.init: 'RNG device' seed mode, using '/dev/urandom', seed=-2111807397 seed_offset=0 real_seed=-2111807397
+core.init.random: RandomGenerator:init: Normal mode, seed=-2111807397 RG_type=mt19937
+core.init: Resolved executable path: /home/hartevel/bin/Rosetta/main/source/build/src/release/linux/3.10/64/x86/icc/17.0/default/extract_pdbs.default.linuxiccrelease
+core.init: Looking for database based on location of executable: /home/hartevel/bin/Rosetta/main/database/
+core.io.silent.SilentFileData: Reading all structures from sT16F_silent
+core.io.silent.SilentFileData: Finished reading 1 structures from sT16F_silent
+core.chemical: [ WARNING ] patch_operation_from_patch_file_line: bad line: VIRTUALIZE_SIDECHAIN
+core.chemical.GlobalResidueTypeSet: Finished initializing fa_standard residue type set.  Created 603 residue types
+core.chemical.GlobalResidueTypeSet: Total time to initialize 0.74 seconds.
+extract_pdbs: extracting Pose with tag 5vw1_0001 into PDB file 5vw1_0001.pdb

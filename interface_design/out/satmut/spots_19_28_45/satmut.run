@@ -1,0 +1,1 @@
+python combinatorial_saturation_mutagenesis.py -p /home/hartevel/bin/Rosetta/main/source/bin/rosetta_scripts.linuxiccrelease -s ../../../../in/5vw1.pdb -sub castor -auto_sub True -hot1 16B -hot2 18B -hot3 33B -j 20 -nstruct 1

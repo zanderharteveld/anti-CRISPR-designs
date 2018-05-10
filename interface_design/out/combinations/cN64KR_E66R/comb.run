@@ -1,0 +1,3 @@
+/home/hartevel/bin/Rosetta/main/source/bin/rosetta_scripts.linuxiccrelease @flags -out:file:silent "$1"_silent -overwrite
+/home/hartevel/bin/Rosetta/main/source/bin/extract_pdbs.linuxiccrelease -in:file:silent "$1"_silent
+mv 5vw1_0001.pdb "$1".pdb

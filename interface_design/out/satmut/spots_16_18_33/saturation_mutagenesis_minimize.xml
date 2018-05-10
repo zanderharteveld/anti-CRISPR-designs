@@ -1,0 +1,37 @@
+<ROSETTASCRIPTS>
+	<TASKOPERATIONS>
+       		<InitializeFromCommandline name="init"/>
+	</TASKOPERATIONS>
+	<SCOREFXNS>
+		 <ScoreFunction name="scorefxn" weights="ref2015"/>
+	</SCOREFXNS>
+	<FILTERS>
+		<Ddg name="ddg" threshold="10000" scorefxn="scorefxn" confidence="0" />
+	 </FILTERS>
+	<MOVERS> 
+		### Pack and minimize ###
+		### ONLY 3 RESIDUES POSSIBLE, HARD CODED ###
+		### TARGETS need residue number and chain, i.e. 31H ###
+		<MutateResidue name="point_mutations_1" target="%%target1%%" new_res="%%spot1%%" preserve_atom_coords="false" />
+		<MutateResidue name="point_mutations_2" target="%%target2%%" new_res="%%spot2%%" preserve_atom_coords="false" />
+		<MutateResidue name="point_mutations_3" target="%%target3%%" new_res="%%spot3%%" preserve_atom_coords="false" />
+		<MinMover name="minimize" scorefxn="scorefxn" chi="true" bb="false" jump="ALL" cartesian="false" type="lbfgs_armijo_nonmonotone" tolerance="0.01" max_iter="200" >
+  			<MoveMap>
+  			 </MoveMap>
+		 </MinMover>
+			
+		<ParsedProtocol name="design_minimize" mode="sequence" >
+    			<Add mover_name="point_mutations_1" />
+			<Add mover_name="point_mutations_2" />
+			<Add mover_name="point_mutations_3" />
+			<Add mover_name="minimize" />
+		</ParsedProtocol>
+		
+		### Iteration options ###
+		<LoopOver name="loop_over_design_minimization" mover_name="design_minimize" iterations="1" drift="1" />
+	</MOVERS>
+	<PROTOCOLS>
+		<Add mover_name="loop_over_design_minimization" />
+		<Add filter_name ="ddg" />
+	</PROTOCOLS>
+</ROSETTASCRIPTS>

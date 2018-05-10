@@ -1,0 +1,6 @@
+-s ../../in/5vw1.pdb
+-parser:protocol ../baseline.xml
+-nstruct 5
+-ex1
+-ex2
+-ignore_unrecognized_res

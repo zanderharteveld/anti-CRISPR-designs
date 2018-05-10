@@ -1,0 +1,3 @@
+/home/hartevel/bin/Rosetta/main/source/bin/rosetta_scripts.linuxiccrelease @flags -out:file:silent sT22H_silent -overwrite
+/home/hartevel/bin/Rosetta/main/source/bin/extract_pdbs.linuxiccrelease -in:file:silent sT22H_silent
+mv 5vw1_0001.pdb sT22H.pdb
